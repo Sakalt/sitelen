@@ -197,7 +197,7 @@ export default class App extends React.Component<Props, State> {
                 </List.Item>
                 <List.Item onClick={() => this.setState({ show: "settings" })}>
                   <List.Icon><FontAwesomeIcon icon="cog" /></List.Icon>
-                  <List.Text>設定</List.Text>
+                  <List.Text>オプション</List.Text>
                 </List.Item>
                 <List.LinkItem href="https://kepeken.github.io/amuhiku/">
                   <List.Icon><FontAwesomeIcon icon="question-circle" /></List.Icon>
@@ -291,7 +291,7 @@ export default class App extends React.Component<Props, State> {
                       .catch(err => alert(err));
                   }}>
                     <List.Icon><FontAwesomeIcon icon="clipboard" /></List.Icon>
-                    <List.Text>クリップボードにコピー</List.Text>
+                    <List.Text>コードをクリップボードにコピー</List.Text>
                   </List.Item>
                 </List.List>
               </Page.Body>
